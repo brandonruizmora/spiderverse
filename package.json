@@ -1,0 +1,25 @@
+{
+  "name": "spiderverse",
+  "version": "1.0.0",
+  "description": "TDD Test Driven Development",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonruizmora/spiderverse.git"
+  },
+  "keywords": [
+    "TDD"
+  ],
+  "author": "brandonruizmora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandonruizmora/spiderverse/issues"
+  },
+  "homepage": "https://github.com/brandonruizmora/spiderverse#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
