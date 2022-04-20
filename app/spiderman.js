@@ -6,6 +6,14 @@ class Spiderman {
         this.movies = movies,
         this.studio = studio
     }
+    // Getter
+    get getInfo() {
+        return this.salutation();
+    }
+    // Método
+    salutation () {
+        return `Hey, I'm ${this.actor} from ${this.studio} studio`
+    }
 }
 
 module.exports = Spiderman;
